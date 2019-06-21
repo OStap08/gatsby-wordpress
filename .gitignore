@@ -5,6 +5,6 @@ public/
 build/
 .cache/
 .netlify
-
+node_modules/
 # IDE specific
 .vscode/
