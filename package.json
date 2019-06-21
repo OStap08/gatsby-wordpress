@@ -28,6 +28,7 @@
   ],
   "license": "MIT",
   "main": "n/a",
+  "homepage": "https://github.com/OStap08/gatsby-wordpress",
   "scripts": {
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
