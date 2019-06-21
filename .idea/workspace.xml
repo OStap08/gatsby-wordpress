@@ -1,9 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f9e1618-b29c-4e83-895a-8e29cfbb01fe" name="Default Changelist" comment="">
+    <list default="true" id="9f9e1618-b29c-4e83-895a-8e29cfbb01fe" name="Default Changelist" comment="added public in repo">
+      <change afterPath="$PROJECT_DIR$/node_modules/gatsby-source-filesystem/node_modules/xstate/editor/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/gatsby-source-filesystem/node_modules/xstate/editor/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/gatsby-source-filesystem/node_modules/xstate/editor/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/directory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/application_xp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/application_xp_terminal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/cd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/controller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/drive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/film.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/folder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/font.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_attach.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_excel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_find.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_gear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_go.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_lightning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_link.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_paintbrush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_paste.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_save.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_acrobat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_actionscript.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_cd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_code_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_coldfusion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_compressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_cplusplus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_csharp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_cup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_database.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_dvd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_excel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_find.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_flash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_freehand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_gear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_get.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_go.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_horizontal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_lightning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_link.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_magnify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_medal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_office.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_paint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_paintbrush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_paste.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_php.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_picture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_powerpoint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_put.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_ruby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_stack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_star.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_swoosh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_text.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_text_width.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_tux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_vector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_visualstudio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_width.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_word.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_world.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_wrench.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_white_zip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_word.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/icons/page_world.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/serve-index/public/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/0-910c890741b735e55f29.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/0-910c890741b735e55f29.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app-54302db3a301809d60da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app-54302db3a301809d60da.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app-679a4dd54f718eb5e5c8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/app-679a4dd54f718eb5e5c8.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/chunk-map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/component---src-pages-index-js-56e55ea8ab95586d6b63.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/component---src-pages-index-js-56e55ea8ab95586d6b63.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/component---src-templates-page-js-f0380ae4ded42cc161da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/component---src-templates-page-js-f0380ae4ded42cc161da.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/component---src-templates-post-js-53f096c404a10f6364ef.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/component---src-templates-post-js-53f096c404a10f6364ef.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/corals-bleaching-and-choking-in-persian-gulf/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/hello-world/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/aspernatur-ut-natus-similique-voluptatum/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/at-vero-quam-provident/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/corals-bleaching-and-choking-in-persian-gulf/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/debitis-consequatur-dignissimos-quis-sunt-non-voluptatum/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/deserunt-unde-reprehenderit-qui/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/dev-404-page/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/et-aut-qui-a-qui-dolorum/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/fuga-qui-ad-ea-aut-dolor/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/gatsby-sample-home-page/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/hello-world/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/index/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/ipsam-voluptate-nulla-consequatur-id-et/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/iure-excepturi-explicabo-architecto-et-labore/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/labore-aut-et-inventore/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/nobis-animi-animi-laudantium-ut-libero-odit/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/non-consequatur-corporis-unde/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/odio-labore-qui-ipsam-omnis/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/omnis-cumque-autem-culpa-assumenda-consequatur/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/pariatur-minus-dicta-totam-consequatur/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/possimus-ut-tenetur-eum-qui/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/quia-corrupti-quaerat-et-mollitia/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/rerum-dolorum-aut-sunt-vel-ea/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/sample-page/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/sample-post-1/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/sample-post-2/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/sed-quia-rem-quaerat-est-voluptatem/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/sit-ex-est-et-voluptatibus/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/sit-hic-deleniti-voluptatum-non-laborum/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/page-data/test-for-updating/page-data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sample-page/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/a3f086a3a86f36dbcd494cf5b55bf030/0b354/pexels-photo-534351.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/a3f086a3a86f36dbcd494cf5b55bf030/10fb1/pexels-photo-534351.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/a3f086a3a86f36dbcd494cf5b55bf030/467b3/pexels-photo-534351.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/a3f086a3a86f36dbcd494cf5b55bf030/51c99/pexels-photo-534351.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/a3f086a3a86f36dbcd494cf5b55bf030/e1ddd/pexels-photo-534351.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/a3f086a3a86f36dbcd494cf5b55bf030/e848c/pexels-photo-534351.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/e69226757b30b07a553be20adf0983d8/0b354/pexels-photo-534327.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/e69226757b30b07a553be20adf0983d8/10fb1/pexels-photo-534327.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/e69226757b30b07a553be20adf0983d8/467b3/pexels-photo-534327.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/e69226757b30b07a553be20adf0983d8/51c99/pexels-photo-534327.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/e69226757b30b07a553be20adf0983d8/e1ddd/pexels-photo-534327.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/e69226757b30b07a553be20adf0983d8/e848c/pexels-photo-534327.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webpack-runtime-66751df70855c31f8375.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webpack-runtime-66751df70855c31f8375.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webpack-runtime-eb72e116885c711c5534.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webpack-runtime-eb72e116885c711c5534.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/webpack.stats.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,20 +186,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gatsby-config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            <state relative-caret-position="146">
+              <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -68,8 +219,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templates/post.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
+            <state relative-caret-position="231">
+              <caret line="68" column="11" lean-forward="true" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -80,8 +231,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templates/page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="391">
+              <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -119,6 +270,7 @@
         <option value="$PROJECT_DIR$/src/components/post-icons.js" />
         <option value="$PROJECT_DIR$/src/templates/post.js" />
         <option value="$PROJECT_DIR$/gatsby-config.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
@@ -191,7 +343,7 @@
       <updated>1560931771012</updated>
       <workItem from="1560931774052" duration="10770000" />
       <workItem from="1560946762931" duration="2254000" />
-      <workItem from="1560954362841" duration="3067000" />
+      <workItem from="1560954362841" duration="8401000" />
     </task>
     <task id="LOCAL-00001" summary="create pathPrefix">
       <created>1561010420735</created>
@@ -200,11 +352,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561010420735</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="deleted public in gitignor">
+      <created>1561011351793</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561011351793</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16091000" />
+    <option name="totallyTimeSpent" value="21425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -216,7 +375,7 @@
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.47058824" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32843137" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
@@ -229,33 +388,15 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info id="npm" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.25" />
-      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.47058824" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create pathPrefix" />
-    <option name="LAST_COMMIT_MESSAGE" value="create pathPrefix" />
+    <MESSAGE value="deleted public in gitignor" />
+    <MESSAGE value="added public in repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="added public in repo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/layouts/index.js">
@@ -281,26 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-221">
@@ -319,6 +440,10 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/0-910c890741b735e55f29.js.map">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/gatsby-node.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -326,24 +451,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/templates/page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="14" />
+        <state relative-caret-position="391">
+          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
+    <entry file="file://$PROJECT_DIR$/src/templates/post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="231">
+          <caret line="68" column="11" lean-forward="true" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="60" lean-forward="true" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gatsby-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
         </state>
       </provider>
     </entry>

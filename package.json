@@ -35,9 +35,10 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "start": "npm run develop",
-    "predeploy": "gatsby build --prefix-paths"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "devDependencies": {
-    "eslint": "^4.1.1"
+    "eslint": "^4.1.1",
+    "gh-pages": "^2.0.1"
   }
 }
