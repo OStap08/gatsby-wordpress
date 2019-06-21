@@ -14,7 +14,7 @@ class Home extends Component {
     return (
       <Layout>
         <div css={{ marginBottom: rhythm(1) }}>
-          <h1>Pages 1</h1>
+          <h1>Pages</h1>
           {data.allWordpressPage.edges.map(({ node }) => (
             <div key={node.slug}>
               <Link to={node.slug} css={{ textDecoration: `none` }}>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f9e1618-b29c-4e83-895a-8e29cfbb01fe" name="Default Changelist" comment="added public in repo">
+    <list default="true" id="9f9e1618-b29c-4e83-895a-8e29cfbb01fe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <list id="67949590-62c2-4dfa-ade7-88e8607ee2a1" name="Revert: create pathPrefix" comment="" />
@@ -93,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="72" lean-forward="true" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+            <state relative-caret-position="68">
+              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -207,7 +206,7 @@
       <workItem from="1560931774052" duration="10770000" />
       <workItem from="1560946762931" duration="2254000" />
       <workItem from="1560954362841" duration="8401000" />
-      <workItem from="1561093268462" duration="4125000" />
+      <workItem from="1561093268462" duration="5117000" />
     </task>
     <task id="LOCAL-00001" summary="create pathPrefix">
       <created>1561010420735</created>
@@ -244,11 +243,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561096225564</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added public in repo">
+      <created>1561097419075</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561097419075</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test 4">
+      <created>1561097792215</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561097792215</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25550000" />
+    <option name="totallyTimeSpent" value="26542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -316,11 +329,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create pathPrefix" />
     <MESSAGE value="deleted public in gitignor" />
-    <MESSAGE value="added public in repo" />
     <MESSAGE value="test bluehost auto update" />
     <MESSAGE value="test 2 auto update host" />
     <MESSAGE value="update gitignor" />
-    <option name="LAST_COMMIT_MESSAGE" value="update gitignor" />
+    <MESSAGE value="added public in repo" />
+    <MESSAGE value="test 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 4" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/layouts/index.js">
@@ -410,8 +424,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="72" lean-forward="true" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+        <state relative-caret-position="68">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
