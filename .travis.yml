@@ -59,5 +59,7 @@ deploy:
 before_script:
   - "npm i -g gatsby"
   - "npm i"
+script:
+  - "npm run test"
 after_success:
   - "npm run deploy"
