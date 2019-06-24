@@ -1,46 +1,4 @@
-#language: node_js
-##node_js:
-##  - "stable"
-##branches:
-##  only:
-##    - master
-##cache:
-##  directories:
-##    - node_modules
-##env:
-##  global:
-##    - 'SFTP_USER=[yarynamazuryk@hexup.co]'
-##    - 'SFTP_PASSWORD=[12345]'
-##    - 'SFTP_KEY=[T49v4oSC9hEpXGNYadUAKZHGixAaMmcqLkIVZQwykxwlhqsPrd/bi1vuLGIUds9U
-##                 WHq+8AMVi874tpSmH371kQutgcRlzBhErD37xzIK3rOMetxBQ8vauxgwVP6Ga3Zx
-##                 45DSMWisp70vrNlszY5Nlg/o71Uu9cms8Aftp4qs2wFCap/EO+qK8ZfzBvI11+tT
-##                 JMGzUvSb1ykklfxR02JoRTXumPpxI99whSGPaP/iFwNMYQiomdDo6UmGgrsWHOSZ
-##                 Kx9/bKlaaOR6nL4aYSd2Kep+PNxpY+6o3Y3zJHebMx3dbsCVMhIaBqsWvk18pbIF
-##                 hZh4DKJ3UNK6Y5QNUYY40UZB6h1h37wwP3UOUkruDFi606JOH4gr+hbGl1cFssWf
-##                 +nFOQm3i7ZSaoBh+oQuPROMPOMbn5yl8wpGCKS62RYuh3NNJQfrbuegxlBdGMbt9
-##                 YO5Ddyr5Ad5GtMv6fmqBoNr1eAxnB1gc2AMc/aOjZ+bh1XkdPrKLe/w4Soesqw1s
-##                 N7xPA1g509avJVSUiC5wWqDr41/X+mJCpsFd9yTtudEWipvelSUWPitR+0mvnqDW
-##                 iRC+LrP1o7J7sVarRWN+3LrJjaw8WKkjx4D5CZkmRb604ymE5lFkNg8UxQleHfWh
-##                 Y4zKGwYB4NJs2kyD8yeJxuqVx/cgbeVD6hIJURzm4Ok7uYYjysXS8rt52rx6mLXB
-##                 9B4MFX1ftlGOFUbYMyZb3/ml6/Dsrs+q9eP9acMFhAuzcjCcFPSWCSPeyZDy7bZ6
-##                 2mHq55L2nXVMVpovCir1+IRowoFXFHCpSRDebLi3OQxczGr4hBKyAH3dZSOoJXkS
-##                 OkyeKyLQ+E9w9AibpW8PrDDO22LLVi6j/UTURXG3h6lb8KgtzboHD948ej9UXP/f]'
-##deploy:
-##  provider: bluehost
-##  skip-cleanup: true
-##  local_dir: public
-##  keep-history: true
-##  on:
-##    branch: master
-##before_script:
-##  - "npm i -g gatsby"
-##  - "npm i"
-##after_success:
-##  - echo "${SFTP_KEY}" | base64 --decode >/tmp/sftp_rsa
-##  - curl --ftp-create-dirs
-##    -T filename
-##    --key /tmp/sftp_rsa
-##    sftp://${SFTP_USER}:${SFTP_PASSWORD}@example.com/directory/filename
+
 
 language: node_js
 node_js:
