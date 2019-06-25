@@ -1,3 +1,24 @@
+#language: node_js
+#node_js:
+#  - "10.14.0"
+#cache:
+#  directories:
+#    - node_modules
+#deploy:
+#  provider: pages
+#  skip-cleanup: true
+#  github-token: $GH_TOKEN
+#  local_dir: public
+#  keep-history: true
+#  on:
+#    branch: master
+#before_script:
+#  - "npm i -g gatsby"
+#  - "npm i"
+#script:
+#  - "npm run test"
+#after_success:
+#  - "npm run deploy"
 
 
 language: node_js
@@ -6,6 +27,11 @@ node_js:
 cache:
   directories:
     - node_modules
+env:
+  global:
+    - 'FTP_USER=[user]'
+    - 'SFTP_PASSWORD=[password]'
+    - 'SFTP_KEY=[base64-encoded-rsa-key]'
 deploy:
   provider: pages
   skip-cleanup: true
@@ -19,5 +45,12 @@ before_script:
   - "npm i"
 script:
   - "npm run test"
+#after_success:
+#  - echo "${SFTP_KEY}" | base64 --decode >/tmp/sftp_rsa
+#  - curl --ftp-create-dirs
+#    -T filename
+#    --key /tmp/sftp_rsa
+#    sftp://${SFTP_USER}:${SFTP_PASSWORD}@example.com/directory/filename
+
 after_success:
-  - "npm run deploy"
+  - find . -type d \( -path "./.*" -o -path "./node_modules" \) -prune -o -name "*" -print -exec curl --ftp-create-dirs -T {} ftp://hexup.co/dir/ --user ${FTP_USER}:${FTP_PASSWORD} \;
