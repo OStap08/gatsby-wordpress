@@ -80,4 +80,4 @@ env:
     - "FTP_USER=yarynamazuryk@hexup.co"
     - "FTP_PASSWORD=12345"
 after_success:
-  "curl --ftp-create-dirs -T ./public -u $FTP_USER:$FTP_PASSWORD ftp://hexup.co/home3/hexupco/repositories/gatsby-wordpress"
+  "curl --ftp-create-dirs -T public -u $FTP_USER:$FTP_PASSWORD ftp://hexup.co/home3/hexupco/repositories/gatsby-wordpress"

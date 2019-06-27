@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f9e1618-b29c-4e83-895a-8e29cfbb01fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/deploy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <list id="67949590-62c2-4dfa-ade7-88e8607ee2a1" name="Revert: create pathPrefix" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -50,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="79" column="19" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="19" />
+            <state relative-caret-position="462">
+              <caret line="82" column="63" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -207,7 +203,7 @@
       <workItem from="1560954362841" duration="8401000" />
       <workItem from="1561093268462" duration="9457000" />
       <workItem from="1561362110068" duration="27664000" />
-      <workItem from="1561618033191" duration="3184000" />
+      <workItem from="1561618033191" duration="3627000" />
     </task>
     <task id="LOCAL-00001" summary="create pathPrefix">
       <created>1561010420735</created>
@@ -335,11 +331,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561618792330</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="test 3 travis ci and bluehost">
+      <created>1561622415775</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1561622415775</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61730000" />
+    <option name="totallyTimeSpent" value="62173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -347,7 +350,7 @@
     <layout>
       <window_info id="npm" order="0" sideWeight="0.501634" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.498366" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.498366" visible="true" weight="0.25" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.51960784" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32843137" />
@@ -437,7 +440,8 @@
     <MESSAGE value="test 6 travis ci" />
     <MESSAGE value="test 1 travis ci and bluehost" />
     <MESSAGE value="test 2 travis ci and bluehost" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 2 travis ci and bluehost" />
+    <MESSAGE value="test 3 travis ci and bluehost" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 3 travis ci and bluehost" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/layouts/index.js">
@@ -549,8 +553,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="79" column="19" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="19" />
+        <state relative-caret-position="462">
+          <caret line="82" column="63" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="63" />
         </state>
       </provider>
     </entry>
