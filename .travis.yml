@@ -24,9 +24,9 @@
 language: node_js
 node_js:
   - "10.14.0"
-#cache:
-#  directories:
-#    - node_modules
+cache:
+  directories:
+    - node_modules
 #env:
 #  global:
 #    - 'FTP_USER=[hexupco]'
@@ -56,28 +56,27 @@ node_js:
 #                 UnxkX6a0GKqbCxddLeiQB1FR1IKdMAzLiAmUBA3blypE+4XGV8JPJ0f+wOsxLtWx
 #                 9vqH+vwhUX9L0BPpGPkyeJ51SV743PWNh3uWR7PTSnuQYWviRqoZ42Vw1on9b+aD
 #                 4sdyuwe3hoHT3krjay8S2W/i16+ejRyKaWkuY8Zbi2VXhOwF6W7AZ5dSBa666v3D]'
-#deploy:
-#  provider: bluehost
-#  skip-cleanup: true
-#  local_dir: public
-#  keep-history: true
-#  on:
-#    branch: master
-#before_script:
-#  - "npm i -g gatsby"
-#  - "npm i"
-#script:
-#  - "npm run test"
+env:
+  global:
+    - "FTP_USER=yarynamazuryk@hexup.co"
+    - "FTP_PASSWORD=12345"
+deploy:
+  provider: bluehost
+  skip-cleanup: true
+  local_dir: public
+  keep-history: true
+  on:
+    branch: master
+before_script:
+  - "npm i -g gatsby"
+  - "npm i"
+script:
+  - "npm run test"
 #after_success:
 #  - echo "${SFTP_KEY}" | base64 --decode >/tmp/sftp_rsa
 #  - curl --ftp-create-dirs
 #    -T filename
 #    --key /tmp/sftp_rsa
 #    sftp://${SFTP_USER}:${SFTP_PASSWORD}@hexup.co/home3/hexupco
-
-env:
-  global:
-    - "FTP_USER=yarynamazuryk@hexup.co"
-    - "FTP_PASSWORD=12345"
 after_success:
   "curl --ftp-create-dirs -T public -u $FTP_USER:$FTP_PASSWORD ftp://hexup.co/home3/hexupco/repositories/gatsby-wordpress"
