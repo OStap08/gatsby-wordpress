@@ -61,7 +61,7 @@ env:
     - "FTP_USER=yarynamazuryk@hexup.co"
     - "FTP_PASSWORD=12345"
 deploy:
-  provider: bluehost
+  provider: ftp
   skip-cleanup: true
   local_dir: public
   keep-history: true
