@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f9e1618-b29c-4e83-895a-8e29cfbb01fe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <list id="67949590-62c2-4dfa-ade7-88e8607ee2a1" name="Revert: create pathPrefix" comment="" />
@@ -46,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="82" column="63" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="63" />
+            <state relative-caret-position="394">
+              <caret line="74" column="14" lean-forward="true" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -203,7 +204,7 @@
       <workItem from="1560954362841" duration="8401000" />
       <workItem from="1561093268462" duration="9457000" />
       <workItem from="1561362110068" duration="27664000" />
-      <workItem from="1561618033191" duration="3627000" />
+      <workItem from="1561618033191" duration="5078000" />
     </task>
     <task id="LOCAL-00001" summary="create pathPrefix">
       <created>1561010420735</created>
@@ -338,11 +339,32 @@
       <option name="project" value="LOCAL" />
       <updated>1561622415775</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="test 4 travis ci and bluehost">
+      <created>1561622768610</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1561622768610</updated>
+    </task>
+    <task id="LOCAL-00021" summary="test 5 travis ci and bluehost">
+      <created>1561622877959</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1561622877959</updated>
+    </task>
+    <task id="LOCAL-00022" summary="test 6 travis ci and bluehost">
+      <created>1561622991501</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1561622991501</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62173000" />
+    <option name="totallyTimeSpent" value="63624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -441,7 +463,10 @@
     <MESSAGE value="test 1 travis ci and bluehost" />
     <MESSAGE value="test 2 travis ci and bluehost" />
     <MESSAGE value="test 3 travis ci and bluehost" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 3 travis ci and bluehost" />
+    <MESSAGE value="test 4 travis ci and bluehost" />
+    <MESSAGE value="test 5 travis ci and bluehost" />
+    <MESSAGE value="test 6 travis ci and bluehost" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 6 travis ci and bluehost" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/layouts/index.js">
@@ -553,8 +578,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="82" column="63" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="63" />
+        <state relative-caret-position="394">
+          <caret line="74" column="14" lean-forward="true" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
         </state>
       </provider>
     </entry>
