@@ -27,39 +27,39 @@ node_js:
 cache:
   directories:
     - node_modules
-env:
-  global:
-    - 'FTP_USER=[hexupco]'
-    - 'SFTP_PASSWORD=[hexUp008]'
-    - 'SFTP_KEY=[YKC+dswC80joghu0bkQpKXFc/s15njbCinLE30FMpIyl0Hk6dvvPAWgeoX04TDwm
-                 rkNUwAZcx9l9uDkIzuhSeLwvKprb8FNffRQic0hvrYW7B53lqsnrbhA4c+HGyzC6
-                 bEwp2b2XZLzIUIMVLGp1gwFqADaGOtv9pnapT3UdDo401q/ARL9V245X13xXfxP3
-                 H/jl1Uh8uXw8jvFbPnDUhAqGWb43Pjig/xXcVQFHAFc33Knepmu9dvYRXnkBA4No
-                 /EIp8L9/Z2cHuMwPH2fpsyN1Z69D39zZ2z2vLU7kkrZTTO76KZClgyNOw7oFyJ3i
-                 O6FDwnekd+R24cfb9hcL1Xd9PIo1N+cvVix8ZaENli+baqyOHB97vNGDUypo1XVI
-                 Trb2Ax0/HP3lQS8sdJkYL1h8TNXFYd8vIuySlhK4bZyoqeyzQKAFglCAIfD1UHul
-                 8Xt7pCrV7i5lE5hznTdbNpapoLsumtIzsyLO53n2MdeG4m0IiyhVv7NrEyo2EAgS
-                 lXYJULiYsXXHISWvTxWY23Bz8XPgxaEqn6mdyjfgwYpUr+qYB7PrtqupVCM2xfg2
-                 JgP/eU6w8AMWQB47SRnJk7bfhBptfhJUCJBLSQ8dcF1L9JpQujKKqSZXiD+jLwyu
-                 3lF9DOtKHqnWUxEoRe3M5ZxRqEERz+rPZW/fEOnFFpBgHUaS5VCu3ZME+I8qn0kW
-                 txN/VfpKzz5qOOwuriVAjy9g5NHq+pRgkEXe5K14FqeDI+d0rXCOBBoct7vLTWK1
-                 Nio/fcHmIQgPe/2v6wBpaRi2uaS7mtfTL+JWlrKM6IEu79UzoQgFk26AX3Q3pjWZ
-                 ZrOFZfAAYQFu9ar90EKb7qE2O1s3WSV2nV2VZk4eetICtkBuYdfpO2RANXPe17na
-                 kr6cqu8xh/ODr5/I1XgHqqebPwEd1Kbyb4VJF+TXT6iUToTKdZdHbDgvNzwTh9xB
-                 YO0FySfEp3++BkRbheHrwHB0w41gIB67FKabbZNgJAdQnpRkOZ6CRftGAShoihRd
-                 DvHYtOwf+M3QOR8RQyF3mlOQZR4x4Ui+VDKlmixELEWgUgegBnikcCg7D5xCVTyX
-                 yQ3MaWmlfJwm5GF6MBkF3J4y12JVdEkt7y1pT3Bx3ChJHy2Fj973VjtQ3qz09Q4s
-                 DFB0QAv7g5ScD/9kSh1W0f9ICARI8TDCf2JF/GYQXpC8axllVLb78N+01RFCtW/v
-                 7J7SvE787lTJbRBZZ7S2Hw9wv2s4XIDnhcwn+jl2PC7kArJuIblJFHyiMrgeMyah
-                 Sv7VZvPx7yfguuSPt0d6818KZiocIRqU6Wzfs77aRt+WRhCiLHZr/d7zSVHMX9Yz
-                 bDWPHjt0y2Hlduf5DMSCbVFtlP2PbV6sjw5B1y3ltl0RlQPwv4wbDlqKjX1/px0q
-                 UnxkX6a0GKqbCxddLeiQB1FR1IKdMAzLiAmUBA3blypE+4XGV8JPJ0f+wOsxLtWx
-                 9vqH+vwhUX9L0BPpGPkyeJ51SV743PWNh3uWR7PTSnuQYWviRqoZ42Vw1on9b+aD
-                 4sdyuwe3hoHT3krjay8S2W/i16+ejRyKaWkuY8Zbi2VXhOwF6W7AZ5dSBa666v3D]'
 #env:
 #  global:
-#    - "FTP_USER=yarynamazuryk@hexup.co"
-#    - "FTP_PASSWORD=12345"
+#    - 'FTP_USER=[hexupco]'
+#    - 'SFTP_PASSWORD=[hexUp008]'
+#    - 'SFTP_KEY=[YKC+dswC80joghu0bkQpKXFc/s15njbCinLE30FMpIyl0Hk6dvvPAWgeoX04TDwm
+#                 rkNUwAZcx9l9uDkIzuhSeLwvKprb8FNffRQic0hvrYW7B53lqsnrbhA4c+HGyzC6
+#                 bEwp2b2XZLzIUIMVLGp1gwFqADaGOtv9pnapT3UdDo401q/ARL9V245X13xXfxP3
+#                 H/jl1Uh8uXw8jvFbPnDUhAqGWb43Pjig/xXcVQFHAFc33Knepmu9dvYRXnkBA4No
+#                 /EIp8L9/Z2cHuMwPH2fpsyN1Z69D39zZ2z2vLU7kkrZTTO76KZClgyNOw7oFyJ3i
+#                 O6FDwnekd+R24cfb9hcL1Xd9PIo1N+cvVix8ZaENli+baqyOHB97vNGDUypo1XVI
+#                 Trb2Ax0/HP3lQS8sdJkYL1h8TNXFYd8vIuySlhK4bZyoqeyzQKAFglCAIfD1UHul
+#                 8Xt7pCrV7i5lE5hznTdbNpapoLsumtIzsyLO53n2MdeG4m0IiyhVv7NrEyo2EAgS
+#                 lXYJULiYsXXHISWvTxWY23Bz8XPgxaEqn6mdyjfgwYpUr+qYB7PrtqupVCM2xfg2
+#                 JgP/eU6w8AMWQB47SRnJk7bfhBptfhJUCJBLSQ8dcF1L9JpQujKKqSZXiD+jLwyu
+#                 3lF9DOtKHqnWUxEoRe3M5ZxRqEERz+rPZW/fEOnFFpBgHUaS5VCu3ZME+I8qn0kW
+#                 txN/VfpKzz5qOOwuriVAjy9g5NHq+pRgkEXe5K14FqeDI+d0rXCOBBoct7vLTWK1
+#                 Nio/fcHmIQgPe/2v6wBpaRi2uaS7mtfTL+JWlrKM6IEu79UzoQgFk26AX3Q3pjWZ
+#                 ZrOFZfAAYQFu9ar90EKb7qE2O1s3WSV2nV2VZk4eetICtkBuYdfpO2RANXPe17na
+#                 kr6cqu8xh/ODr5/I1XgHqqebPwEd1Kbyb4VJF+TXT6iUToTKdZdHbDgvNzwTh9xB
+#                 YO0FySfEp3++BkRbheHrwHB0w41gIB67FKabbZNgJAdQnpRkOZ6CRftGAShoihRd
+#                 DvHYtOwf+M3QOR8RQyF3mlOQZR4x4Ui+VDKlmixELEWgUgegBnikcCg7D5xCVTyX
+#                 yQ3MaWmlfJwm5GF6MBkF3J4y12JVdEkt7y1pT3Bx3ChJHy2Fj973VjtQ3qz09Q4s
+#                 DFB0QAv7g5ScD/9kSh1W0f9ICARI8TDCf2JF/GYQXpC8axllVLb78N+01RFCtW/v
+#                 7J7SvE787lTJbRBZZ7S2Hw9wv2s4XIDnhcwn+jl2PC7kArJuIblJFHyiMrgeMyah
+#                 Sv7VZvPx7yfguuSPt0d6818KZiocIRqU6Wzfs77aRt+WRhCiLHZr/d7zSVHMX9Yz
+#                 bDWPHjt0y2Hlduf5DMSCbVFtlP2PbV6sjw5B1y3ltl0RlQPwv4wbDlqKjX1/px0q
+#                 UnxkX6a0GKqbCxddLeiQB1FR1IKdMAzLiAmUBA3blypE+4XGV8JPJ0f+wOsxLtWx
+#                 9vqH+vwhUX9L0BPpGPkyeJ51SV743PWNh3uWR7PTSnuQYWviRqoZ42Vw1on9b+aD
+#                 4sdyuwe3hoHT3krjay8S2W/i16+ejRyKaWkuY8Zbi2VXhOwF6W7AZ5dSBa666v3D]'
+env:
+  global:
+    - "FTP_USER=yarynamazuryk@hexup.co"
+    - "FTP_PASSWORD=12345"
 deploy:
   provider: bluehost
   skip-cleanup: true
@@ -72,11 +72,11 @@ before_script:
   - "npm i"
 script:
   - "npm run test"
-after_success:
-  - echo "${SFTP_KEY}" | base64 --decode >/tmp/sftp_rsa
-  - curl --ftp-create-dirs
-    -T filename
-    --key /tmp/sftp_rsa
-    sftp://${SFTP_USER}:${SFTP_PASSWORD}@hexup.co/home3/hexupco
 #after_success:
-#  "curl --ftp-create-dirs -T public -u $FTP_USER:$FTP_PASSWORD ftp://hexup.co/home3/hexupco/repositories/gatsby-wordpress"
+#  - echo "${SFTP_KEY}" | base64 --decode >/tmp/sftp_rsa
+#  - curl --ftp-create-dirs
+#    -T filename
+#    --key /tmp/sftp_rsa
+#    sftp://${SFTP_USER}:${SFTP_PASSWORD}@hexup.co/home3/hexupco
+after_success:
+  "curl --ftp-create-dirs -T uploadthis -u $FTP_USER:$FTP_PASSWORD ftp://hexup.co/home3/hexupco/repositories/gatsby-wordpress"
