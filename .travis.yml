@@ -79,4 +79,4 @@ script:
 #    --key /tmp/sftp_rsa
 #    sftp://${SFTP_USER}:${SFTP_PASSWORD}@hexup.co/home3/hexupco
 after_success:
-  "curl --ftp-create-dirs -T uploadthis -u $FTP_USER:$FTP_PASSWORD ftp://hexup.co/home3/hexupco/repositories/gatsby-wordpress"
+  "curl --ftp-create-dirs -T /home/travis/build/OStap08/gatsby-wordpress/node_modules/.bin -u $FTP_USER:$FTP_PASSWORD ftp://hexup.co/home3/hexupco/repositories/gatsby-wordpress"
